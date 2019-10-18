@@ -1,0 +1,23 @@
+{
+  "name": "pencil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pencil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/pencil.js.git"
+  },
+  "keywords": [
+    "pencil",
+    "editor"
+  ],
+  "author": "lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/pencil.js/issues"
+  },
+  "homepage": "https://github.com/song940/pencil.js#readme"
+}

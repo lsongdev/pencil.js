@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pencil.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pencil.css">
+  <script src="pencil.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #editor {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="editor"></div>
+</body>
+<script>
+  Pencil('#editor', {
+    actions: [
+      'bold',
+      'italic',
+      'underline',
+      'strikethrough',
+      'heading1',
+      'heading2',
+      'paragraph',
+      'quote',
+      'olist',
+      'ulist',
+      'code',
+      'line',
+      'link',
+      'image',
+      'cut',
+      'paste',
+      'clearFormat',
+      'indent',
+      'outdent',
+      'color',
+      'bgcolor',
+      'big',
+      'small',
+      'font',
+      'size',
+      'copy',
+      'html',
+      'left',
+      'center',
+      'right',
+      'subscript',
+      'superscript',
+      'table',
+      {
+        name: 'Hi!',
+        action: editor => alert('Hello World!')
+      }
+    ],
+    change: (e) => {
+      console.log(e.target.innerHTML);
+    }
+  });
+</script>
+
+</html>
