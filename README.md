@@ -10,7 +10,7 @@
 
 ### Example
 
-http://blog.lsong.org/pencil.js/pencil.html
+https://lsong.org/pencil.js/pencil.html
 
 ### Contributing
 - Fork this Repo first
